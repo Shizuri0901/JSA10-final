@@ -9,8 +9,8 @@ xây dựng một thế giới đầy sức mạnh phụ nữ để truyền
 cảm hứng cho các thế hệ tương lai.
 
 ## Checklist và timeline
-- [x] 19/02 : Làm xong timeline
-- [ ] 20/02 : Tìm được API **phù hợp**
+- [X] 19/02 : Làm xong timeline
+- [X] 20/02 : Tìm được API **phù hợp** (Yelp API, Geolocation API, openai API)
 - [ ] 24/02 : Thiết kế header (nav bar, logo, nút redirect)
 - [ ] 28/02 : Thiết kế footer (about us, thông tin liên lạc)
 - [ ] 08/03 : Thiết kế body bằng boostrap
