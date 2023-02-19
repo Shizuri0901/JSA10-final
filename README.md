@@ -9,7 +9,7 @@ xây dựng một thế giới đầy sức mạnh phụ nữ để truyền
 cảm hứng cho các thế hệ tương lai.
 
 ## Checklist và timeline
--[] 19/02 : Làm xong timeline
+-[] Làm xong timeline
 -[] 20/02 : Tìm được API **phù hợp**
 -[] 24/02 : Thiết kế header (nav bar, logo, nút redirect)
 -[] 28/02 : Thiết kế footer (about us, thông tin liên lạc)
