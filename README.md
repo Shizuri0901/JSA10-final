@@ -12,7 +12,7 @@ cảm hứng cho các thế hệ tương lai.
 - [X] 19/02 : Làm xong timeline
 - [X] 20/02 : Tìm được API **phù hợp** (Yelp API, Geolocation API, openai API)
 - [x] 24/02 : Thiết kế header (nav bar, logo, nút redirect)
-- [ ] 28/02 : Thiết kế footer (about us, thông tin liên lạc)
+- [x] 28/02 : Thiết kế footer (about us, thông tin liên lạc)
 - [ ] 08/03 : Thiết kế body bằng boostrap
 - [ ] 22/03 : Thiết kế Javascript (nhớ dùng comment, lồng )
 - [ ] 24/03 : Thiết kế Powerpoint
