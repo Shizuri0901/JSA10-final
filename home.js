@@ -210,7 +210,7 @@ async function res_rec(food){
       Name = item.recipe.label
       img = item.recipe.image
       localStorage.setItem("ingredients",item.recipe.ingredients)
-      const ingredients = recipe.ingredientLines.join("\n");
+      const ingredients = item.recipe.ingredientLines.join("\n");
       const price = item.recipe.dietLabels.join(", ");
       const address = item.recipe.totalNutrients.CHOCDF.quantity.toFixed(2);
       const health = item.recipe.healthLabels.join(", ");
