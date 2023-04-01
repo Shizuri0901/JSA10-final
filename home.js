@@ -42,9 +42,9 @@ if (localStorage.getItem("content") == "null") {
 if (localStorage.getItem("place") == "null") {
   localStorage.setItem("place", "")
 }
-// if (window.location.href == "http://127.0.0.1:5501/home.html"){
-//   res_loc("Ho Chi Minh") /// set up sẵn
-// }
+if (window.location.href == "http://127.0.0.1:5501/home.html"){
+  res_loc("Ho Chi Minh") /// set up sẵn
+}
 /// Set up dropdown
 dropdownItems.forEach(item => {
   item.addEventListener('click', () => {
