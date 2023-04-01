@@ -1,12 +1,12 @@
 /// Redirect home
 const logo = document.querySelector('#logo')
 logo.addEventListener('click',function(){
-    location.href = "http://127.0.0.1:5500/home.html"
+    location.href = "https://shizuri0901.github.io/JSA10-final/home.html"
 })
 
 /// đăng xuất
 function Log_out(){
-  location.href = 'sign_in.html';
+  location.href = 'https://shizuri0901.github.io/JSA10-final/sign_in.html';
   localStorage.setItem('login','false')
   localStorage.setItem('User','')
 }
@@ -42,9 +42,9 @@ if (localStorage.getItem("content") == "null") {
 if (localStorage.getItem("place") == "null") {
   localStorage.setItem("place", "")
 }
-if (window.location.href == "http://127.0.0.1:5501/home.html"){
-  res_loc("Ho Chi Minh") /// set up sẵn
-}
+// if (window.location.href == "https://shizuri0901.github.io/JSA10-final/home.html"){
+//   res_loc("Ho Chi Minh") /// set up sẵn
+// }
 /// Set up dropdown
 dropdownItems.forEach(item => {
   item.addEventListener('click', () => {
@@ -80,7 +80,7 @@ $(document).ready(function () {
       else if (localStorage.getItem('sort') == 'Cooking recipes'){
         res_rec(localStorage.getItem("place"))
       }
-      if ( window.location.href == "sign_in.html#" || window.location.href == "sign_up.html#" ){
+      if ( window.location.href == "https://shizuri0901.github.io/JSA10-final/sign_in.html#" || window.location.href == "https://shizuri0901.github.io/JSA10-final/sign_up.html#" ){
         all = document.querySelector("#all")
         all.innerHTML =''
       }

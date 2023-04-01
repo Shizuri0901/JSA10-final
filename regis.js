@@ -39,7 +39,7 @@ function Regist(){
   prev_acc.push(n_acc);
   let n_acc_str = JSON.stringify(prev_acc);
   localStorage.setItem('Acc', n_acc_str);
-  setTimeout(location.href = 'sign_in.html',1000)
+  setTimeout(location.href = 'https://shizuri0901.github.io/JSA10-final/sign_in.html',1000)
 }
 
 /// Đăng nhập
@@ -55,7 +55,7 @@ function CheckAcc(){
       localStorage.setItem('User',us.value)
       localStorage.setItem('login',true)
       tru = true
-      location.href = 'home.html'
+      location.href = 'https://shizuri0901.github.io/JSA10-final/home.html'
     }
     else if(us.value == prev_us || ps.value == prev_ps){
       errorMessage.classList.remove('visually-hidden')
